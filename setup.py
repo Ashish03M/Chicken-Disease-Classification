@@ -8,8 +8,8 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Chicken-Disease-Classification"
 AUTHOR_USER_NAME = "Ashish03M"
-SRC_REPO = ""
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+SRC_REPO = "Chicken Disease Classifiction"
+AUTHOR_EMAIL = "ds.ashishmishra@gmail.com"
 
 
 setuptools.setup(
@@ -25,5 +25,7 @@ setuptools.setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src")
+)
 
     
